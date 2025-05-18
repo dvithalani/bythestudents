@@ -10,23 +10,24 @@
       font-family: 'Inter', sans-serif;
       margin: 0;
       padding: 0;
-      background-color: #f4f4f4;
-      color: #333;
-    }
-    header, footer {
-      background-color: #023047;
+      background: linear-gradient(120deg, #002855, #003f5c);
       color: white;
-      padding: 1rem 2rem;
+    }
+    header {
+      background-color: #ffd700;
+      color: #002855;
+      padding: 2rem;
       text-align: center;
     }
     nav {
-      background-color: #219ebc;
+      background-color: #003f5c;
       display: flex;
       justify-content: center;
       padding: 1rem;
+      flex-wrap: wrap;
     }
     nav a {
-      color: white;
+      color: #ffd700;
       margin: 0 1rem;
       text-decoration: none;
       font-weight: bold;
@@ -37,14 +38,30 @@
       margin: auto;
     }
     h1, h2 {
-      color: #023047;
+      color: #ffd700;
     }
     .card {
-      background: white;
-      padding: 1rem;
+      background: rgba(255, 255, 255, 0.05);
+      padding: 1.5rem;
       border-radius: 8px;
-      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
-      margin-bottom: 1.5rem;
+      border: 1px solid #ffd700;
+      margin-bottom: 2rem;
+    }
+    footer {
+      background-color: #001f3f;
+      color: #ffd700;
+      text-align: center;
+      padding: 1rem;
+    }
+    a.button {
+      background-color: #ffd700;
+      color: #002855;
+      padding: 0.75rem 1.5rem;
+      text-decoration: none;
+      border-radius: 4px;
+      display: inline-block;
+      margin-top: 1rem;
+      font-weight: bold;
     }
   </style>
 </head>
